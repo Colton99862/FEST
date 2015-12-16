@@ -1,6 +1,7 @@
-# FEA-Save-Tool
-Save Compressor/Decompressor for Fire Emblem: Awakening
+# FE-Save-Tool
+Save Compressor / Decompressor for Fire Emblem: Awakening and Fire Emblem: Fates
 
-![GUI](http://i.imgur.com/nrv1BQ9.png)
+How to use:
 
-Open a compressed or decompressed folder with the appropriate button, or Drag/Drop a folder.
+* Decompress: Drag and drop a compressed save file (e.g: Chapter0) to the .exe file.
+* Compress: Drag and drop a decompressed save file (must have "_dec" suffix) to the .exe file.
