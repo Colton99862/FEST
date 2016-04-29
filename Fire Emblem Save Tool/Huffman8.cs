@@ -4,7 +4,7 @@
 using System;
 using System.Linq;
 
-namespace Fire_Emblem_Awakening_Save_Tool
+namespace Fire_Emblem_Save_Tool
 {
     public class Huffman8
     {
@@ -410,8 +410,10 @@ namespace Fire_Emblem_Awakening_Save_Tool
                     uint j;
                     for (j = l1; j > l0; j -= 2)
                     {
-                        Array.Copy(BitConverter.GetBytes(BitConverter.ToUInt16(codetree, (int)j - 2)), 0, codetree, (int)j, 2);
-                        Array.Copy(BitConverter.GetBytes(BitConverter.ToUInt16(codemask, (int)j - 2)), 0, codemask, (int)j, 2);
+                        codetree[j] = codetree[j - 2];
+                        codetree[j + 1] = codetree[j - 1];
+                        codemask[j] = codemask[j - 2];
+                        codemask[j + 1] = codemask[j - 1];
                     }
                     Array.Copy(BitConverter.GetBytes(tmp0), 0, codetree, l0, 2);
                     Array.Copy(BitConverter.GetBytes(tmp1), 0, codemask, l0, 2);

@@ -1,7 +1,12 @@
-# FE-Save-Tool
-Save Compressor / Decompressor for Fire Emblem: Awakening and Fire Emblem: Fates
+# FEST
+Save compressor / decompressor for Fire Emblem: Awakening and Fire Emblem: Fates. This is the simplified version of [FEAST](https://github.com/SciresM/FEAST), with single file support.
 
-How to use:
+# Download
+https://github.com/RainThunder/FEST/releases
 
-* Decompress: Drag and drop a compressed save file (e.g: Chapter0) to the .exe file.
-* Compress: Drag and drop a decompressed save file (must have "_dec" suffix) to the .exe file.
+# Instructions
+* Decompress: Drag and drop a compressed save file (e.g: "Chapter0", "Global") to the .exe file.
+* Compress: Drag and drop a decompressed save file to the .exe file.
+
+# Credits
+* SciresM and CUE for FEAST.
